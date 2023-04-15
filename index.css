@@ -1,0 +1,189 @@
+h1 {
+  color: teal;
+  font-size: 50px;
+  text-align: center;
+}
+
+#layout {
+  width: 20%;
+  /* border:1px solid red; */
+  display: grid;
+  margin: auto;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin-top: 60px;
+  border-radius: 2%;
+}
+
+#screen {
+  width: 90%;
+  /* border:1px solid teal; */
+  height: 60px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 50px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+#keyboard {
+  width: 80%;
+  height: auto;
+  /* border:1px solid green; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(4, 70px);
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+#keyboard > div {
+  /* border:1px solid brown; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  cursor: pointer;
+}
+
+.red {
+  color: white;
+  background-color: red;
+}
+
+.black {
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+  #layout {
+    width: 25%;
+    /* border:1px solid red; */
+    display: grid;
+    margin: auto;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-top: 60px;
+    border-radius: 2%;
+  }
+  #screen {
+    width: 80%;
+    /* border:1px solid teal; */
+    height: 60px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  #keyboard > div {
+    /* border:1px solid brown; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding:20px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+  }
+ 
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1199px) {
+  #layout {
+    width: 30%;
+    /* border:1px solid red; */
+    display: grid;
+    margin: auto;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-top: 60px;
+    border-radius: 2%;
+  }
+  #screen {
+    width: 82%;
+    /* border:1px solid teal; */
+    height: 60px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  #keyboard {
+    width: 80%;
+    height: auto;
+    /* border:1px solid green; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 499px) {
+  #layout {
+    width: 90%;
+    /* border:1px solid red; */
+    display: grid;
+    margin: auto;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-top: 60px;
+    border-radius: 2%;
+  }
+  #screen {
+    width: 82%;
+    /* border:1px solid teal; */
+    height: 60px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  #keyboard {
+    width: 80%;
+    height: auto;
+    /* border:1px solid green; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(4, 40px);
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+}
