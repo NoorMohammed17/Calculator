@@ -8,4 +8,4 @@ Tech Stack Used :
 3. JavaScript
 
 Deployed Netlify Link :
-https://strong-douhua-857887.netlify.app/
+https://thriving-pika-1a1887.netlify.app
